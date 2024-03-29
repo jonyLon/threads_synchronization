@@ -36,7 +36,7 @@ namespace threads_synchronization
 
         static void Main(string[] args)
         {
-            string directoryPath = @"C:\Users\user\Desktop\ШАГ";
+            string directoryPath = @"C:\Users\user\Desktop\ШАГ\lines";
             string[] files = Directory.GetFiles(directoryPath, "*.txt");
             Thread[] threads = new Thread[files.Length];
 
